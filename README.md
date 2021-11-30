@@ -13,10 +13,10 @@ The algorithm is as follows:
 2. If _there is not_ a path between XA and XB, then the nodes XA and XB must be _conditionally independent_.
 3. If _there is_ a path between XA and XB, then the nodes XA and XB are _conditionally dependent_.
 Link to the article of _Ross D. Shachter_ which created the algorithm: https://arxiv.org/ftp/arxiv/papers/1301/1301.7412.pdf
-- the idea:
+##### the idea for implementing Bayes Ball Algorithm:
   <img src="https://user-images.githubusercontent.com/79406881/144015549-1545f298-e61d-44f4-ad71-cc76f41790ff.png" width="600" height="400">
 
-- example:
+##### example:
   ![image](https://user-images.githubusercontent.com/79406881/144015833-acf0bfb0-acba-4d37-b7d5-12bd116ca99a.png)
 
 ## 3. Variable elimination
