@@ -19,7 +19,7 @@ The algorithm is as follows:
 <img src="https://user-images.githubusercontent.com/79406881/144015549-1545f298-e61d-44f4-ad71-cc76f41790ff.png" width="600" height="400">
 
 ##### example:
-<img src="https://user-images.githubusercontent.com/79406881/144015833-acf0bfb0-acba-4d37-b7d5-12bd116ca99a.png" width="600" height="400">
+<img src="https://user-images.githubusercontent.com/79406881/144015833-acf0bfb0-acba-4d37-b7d5-12bd116ca99a.png" width="600" height="300">
 
 ## 3. Variable elimination
 Variable elimination (VE) is a simple and general exact inference algorithm in probabilistic graphical models, such as Bayesian networks and Markov random fields.[1] It can be used for inference of maximum a posteriori (MAP) state or estimation of conditional or marginal distributions over a subset of variables. The algorithm has exponential time complexity, but could be efficient in practice for the low-treewidth graphs, if the proper elimination order is used. (wikipedia)
