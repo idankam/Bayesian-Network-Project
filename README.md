@@ -14,8 +14,9 @@ The algorithm is as follows:
 3. If _there is_ a path between XA and XB, then the nodes XA and XB are _conditionally dependent_.
 Link to the article of _Ross D. Shachter_ which created the algorithm: https://arxiv.org/ftp/arxiv/papers/1301/1301.7412.pdf
 - the idea:
-![image](https://user-images.githubusercontent.com/79406881/144015549-1545f298-e61d-44f4-ad71-cc76f41790ff.png)
+- ![image](https://user-images.githubusercontent.com/79406881/144015549-1545f298-e61d-44f4-ad71-cc76f41790ff.png).size(200,200)
+
 - example:
-![image](https://user-images.githubusercontent.com/79406881/144015833-acf0bfb0-acba-4d37-b7d5-12bd116ca99a.png)
+- ![image](https://user-images.githubusercontent.com/79406881/144015833-acf0bfb0-acba-4d37-b7d5-12bd116ca99a.png)
 
 ## 
