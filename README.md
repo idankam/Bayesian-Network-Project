@@ -59,11 +59,15 @@ We would like to compute: P(Q|E1=e1,...,Ek=ek)
 * __our factors:__</br>
 
 ![image](https://user-images.githubusercontent.com/79406881/144025097-755fbf91-aaff-4d91-8861-01ecafc7929a.png)  ![image](https://user-images.githubusercontent.com/79406881/144025140-c9a7efd3-cc68-467b-a9f2-aa41783d3cf6.png)
-
-* __join A:__</br>
+</br>
+* __Join A:__</br>
 ![image](https://user-images.githubusercontent.com/79406881/144023118-85b31cfd-0d6d-4672-acaf-89fd435804a2.png)
 ![image](https://user-images.githubusercontent.com/79406881/144023153-d3daf34c-fa46-4d7c-9015-6675424358e5.png)
+</br>
+* __Eliminate A:__</br>
 ![image](https://user-images.githubusercontent.com/79406881/144023322-a1e8d23a-89b5-4dd8-8c39-8eb78843618e.png)
+</br>
+* __Join and Eliminate E:__</br>
 ![image](https://user-images.githubusercontent.com/79406881/144023656-09ab381b-e12d-468b-9252-b45169b88eaa.png)
 ![image](https://user-images.githubusercontent.com/79406881/144023779-1bfe4efa-4efe-4e23-b518-ac64d6adf7ea.png)
 ![image](https://user-images.githubusercontent.com/79406881/144022310-09480dfd-328f-45af-bbdd-d91c783f473b.png)
