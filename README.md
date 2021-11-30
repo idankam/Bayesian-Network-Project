@@ -27,5 +27,15 @@ variables which are irrelevant for the query.
 - It relies on some basic operations on a class of functions known as
 factors.
 - It uses an algorithmic technique called dynamic programming
-#####
-c
+##### Variable elimination process:
+We would like to compute: P(Q|E1=e1,...,Ek=ek)
+
+• Start with initial factors
+− local CPTs instantiated by evidence
+− If an instantiated CPT becomes one-valued, discard the factor
+• While there are still hidden variables (not Q or evidence):
+− Pick a hidden variable H
+− Join all factors mentioning H
+− Eliminate (sum out) H
+− If the factor becomes one-valued, discard the factor
+• Join all remaining factors and normalize
