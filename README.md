@@ -30,12 +30,12 @@ factors.
 ##### Variable elimination process:
 We would like to compute: P(Q|E1=e1,...,Ek=ek)
 
-A. Start with initial factors
-  • local CPTs instantiated by evidence
-  • If an instantiated CPT becomes one-valued, discard the factor
-B. While there are still hidden variables (not Q or evidence):
-  • Pick a hidden variable H
-  • Join all factors mentioning H
-  • Eliminate (sum out) H
-  • If the factor becomes one-valued, discard the factor
-C. Join all remaining factors and normalize
+A. Start with initial factors 
+  • local CPTs instantiated by evidence 
+  • If an instantiated CPT becomes one-valued, discard the factor 
+B. While there are still hidden variables (not Q or evidence): 
+  • Pick a hidden variable H 
+  • Join all factors mentioning H 
+  • Eliminate (sum out) H 
+  • If the factor becomes one-valued, discard the factor 
+C. Join all remaining factors and normalize 
