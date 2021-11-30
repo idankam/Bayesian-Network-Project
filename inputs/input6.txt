@@ -1,0 +1,6 @@
+test_net.xml
+L-T2|T1=T
+L-B|
+L-B|T1=T
+L-B|T2=T
+L-B|T2=T,R=T
