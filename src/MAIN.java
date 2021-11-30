@@ -1,7 +1,7 @@
 import java.io.*;
 import java.util.Scanner;
 
-public class Ex1 {
+public class MAIN{
 
     // open and read from input file
     static File file = new File("input9.txt");
