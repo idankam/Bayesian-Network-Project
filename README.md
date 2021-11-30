@@ -75,11 +75,14 @@ We would like to compute: P(Q|E1=e1,...,Ek=ek)
 * __Join and Eliminate E:__</br>
 
 ![image](https://user-images.githubusercontent.com/79406881/144023656-09ab381b-e12d-468b-9252-b45169b88eaa.png)
+
+</br>
+
+* __Join and Normalize B (the Qeury variable):__</br>
 ![image](https://user-images.githubusercontent.com/79406881/144023779-1bfe4efa-4efe-4e23-b518-ac64d6adf7ea.png)
-![image](https://user-images.githubusercontent.com/79406881/144022310-09480dfd-328f-45af-bbdd-d91c783f473b.png)
 
 
-one more example of (complex) join:
+* and one more example of (complex) join:
 ![image](https://user-images.githubusercontent.com/79406881/144023905-5300d864-86d1-47eb-af24-0360c119e91c.png)
 
 
