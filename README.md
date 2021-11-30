@@ -39,3 +39,41 @@ We would like to compute: P(Q|E1=e1,...,Ek=ek)
   * Eliminate (sum out) H 
   * If the factor becomes one-valued, discard the factor           
 * Join all remaining factors and normalize 
+
+#### there are 3 operations in this process: Join Factors, Eliminate, Normalize
+
+#### A. JOIN:
+* Get all factors over the joining variable
+* Build a new factor over the union of the variables
+
+#### B. ELIMINATE 
+* Take a factor and sum out a variable - marginalization
+* Shrinks a factor to a smaller one
+
+#### C. NORMALIZE
+* Take every probability in the last factor and divide it with the sum of all probabilities in the factor (including the one we are dividing).
+* The answer we are looking for is the probability of the query value.
+
+##### examples:
+![image](https://user-images.githubusercontent.com/79406881/144023063-e6a13349-c46b-458c-bcc4-98704f222aef.png)
+![image](https://user-images.githubusercontent.com/79406881/144023118-85b31cfd-0d6d-4672-acaf-89fd435804a2.png)
+![image](https://user-images.githubusercontent.com/79406881/144023153-d3daf34c-fa46-4d7c-9015-6675424358e5.png)
+
+![image](https://user-images.githubusercontent.com/79406881/144021902-c8bfa06b-90ca-4ae7-81ea-a8d08e05c7fa.png)
+![image](https://user-images.githubusercontent.com/79406881/144022745-c0ad90c6-0c0b-43b9-ac82-5f83e3cc42a2.png)
+
+
+
+![image](https://user-images.githubusercontent.com/79406881/144023322-a1e8d23a-89b5-4dd8-8c39-8eb78843618e.png)
+
+![image](https://user-images.githubusercontent.com/79406881/144023656-09ab381b-e12d-468b-9252-b45169b88eaa.png)
+![image](https://user-images.githubusercontent.com/79406881/144023779-1bfe4efa-4efe-4e23-b518-ac64d6adf7ea.png)
+
+![image](https://user-images.githubusercontent.com/79406881/144022310-09480dfd-328f-45af-bbdd-d91c783f473b.png)
+
+
+one more example of (complex) join:
+![image](https://user-images.githubusercontent.com/79406881/144023905-5300d864-86d1-47eb-af24-0360c119e91c.png)
+
+
+
