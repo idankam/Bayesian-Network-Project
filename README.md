@@ -55,13 +55,14 @@ We would like to compute: P(Q|E1=e1,...,Ek=ek)
 * The answer we are looking for is the probability of the query value.
 
 ##### examples:
+![image](https://user-images.githubusercontent.com/79406881/144024872-4fbae8fb-539f-4380-ab61-8bc64cbbc238.png)
+our factors:
+![image](https://user-images.githubusercontent.com/79406881/144025097-755fbf91-aaff-4d91-8861-01ecafc7929a.png)  ![image](https://user-images.githubusercontent.com/79406881/144025140-c9a7efd3-cc68-467b-a9f2-aa41783d3cf6.png)
+#
 ![image](https://user-images.githubusercontent.com/79406881/144023063-e6a13349-c46b-458c-bcc4-98704f222aef.png)
+join and eliminate a:
 ![image](https://user-images.githubusercontent.com/79406881/144023118-85b31cfd-0d6d-4672-acaf-89fd435804a2.png)
 ![image](https://user-images.githubusercontent.com/79406881/144023153-d3daf34c-fa46-4d7c-9015-6675424358e5.png)
-
-![image](https://user-images.githubusercontent.com/79406881/144021902-c8bfa06b-90ca-4ae7-81ea-a8d08e05c7fa.png)
-![image](https://user-images.githubusercontent.com/79406881/144022745-c0ad90c6-0c0b-43b9-ac82-5f83e3cc42a2.png)
-
 
 
 ![image](https://user-images.githubusercontent.com/79406881/144023322-a1e8d23a-89b5-4dd8-8c39-8eb78843618e.png)
